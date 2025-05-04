@@ -6,7 +6,7 @@ public class App {
         configManager.setModeEscuro(true);
         configManager.setIdioma("pt-br");
 
-        ConfigManager newConfigManager =ConfigManager.getInstancia();
-        newConfigManager.PrintConfiguracoes();
+        ConfigManager newConfig =ConfigManager.getInstancia();
+        newConfig.PrintConfiguracoes();
     }
 }
