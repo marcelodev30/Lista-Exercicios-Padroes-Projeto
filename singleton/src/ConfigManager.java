@@ -24,5 +24,21 @@ public boolean getModeEscuro(){
     return this.modeEscuro;
 }
 
+public void setIdioma(String value){
+    this.idioma= value;
+}
+
+public void setTema(String value){
+    this.tema= value;
+}
+public void setModeEscuro(boolean value){
+    this.modeEscuro= value;
+}
+
+public void PrintConfiguracoes() {
+    System.out.println("Idioma: " + idioma);
+    System.out.println("Tema: " + tema);
+    System.out.println("Modo Escuro: " + (modeEscuro ? "Ativado" : "Desativado"));
+}
 
 }
