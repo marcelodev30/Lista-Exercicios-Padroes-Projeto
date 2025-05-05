@@ -1,7 +1,7 @@
 # Lista de Exercícios – Padrões de Projeto em Java
 
 
-1. Singleton – Gerenciador de Configurações:
+1. Singleton – Gerenciador de Configurações
 Implemente uma classe ConfigManager que siga o padrão Singleton. Ela deve permitir armazenar e recuperar configurações como idioma, tema, e modoEscuro. Garanta que apenas uma instância da classe possa existir durante a execução do programa.
 
 2. Factory Method – Criador de Usuários:
