@@ -9,7 +9,7 @@ public class UserFactory {
             case "viewer":
                 return new Viewer();
             default:
-                System.out.println("Tipo de usuário desconhecido: " + tipo);
+                throw new IllegalArgumentException("Tipo de usuário desconhecido: " + tipo);
         }
     }
 }
